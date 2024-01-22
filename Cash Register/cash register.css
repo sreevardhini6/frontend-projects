@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c4bcbc;
+}
+
+#register {
+    background-color: #d8cfcf;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+#cart {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#cart th, #cart td {
+    border: 4px solid #d4c4c4;
+    padding: 9px;
+    text-align: center;
+}
+
+#cart th {
+    background-color: #cfc2c2;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#input-container {
+    display: flex;
+    gap: 10px;
+}
+
+#input-container input {
+    padding: 8px;
+    font-size: 14px;
+}
+
+#add-btn {
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
